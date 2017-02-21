@@ -18,27 +18,17 @@
 
 ## Return Data(json)
 
+[ // 所有关注的图书
     {
-        "all_list": [ // 所有关注的图书
-            {
-            "bid": "xxxx", // 图书的bid
-            "book": "xxxx", // 图书的名字
-            "id": , "xxxx", // 图书的id
-            "author":  "xxxx" // 图书的作者
-            },
-            { ... }
-        ],
-
-        "available_list": [ // 可借的图书
-            {
-            "bid": "xxxx", // 图书的bid
-            "book": "xxxx", // 图书的名字
-            "id": , "xxxx", // 图书的id
-            "author": "xxxx" // 图书的作者
-            },
-            { ... }
-        ]
-    }
+        "bid": "xxxx", // 图书的bid
+        "book": "xxxx", // 图书的名字
+        "id": "xxxx", // 图书的id
+        "author": "xxxx", // 图书的作者
+        "can_borrow": true //是否可借
+     },
+     { ... }
+]
+  
 
 ## Status Code
 
